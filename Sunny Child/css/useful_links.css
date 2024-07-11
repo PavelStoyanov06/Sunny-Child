@@ -1,0 +1,17 @@
+.sec1 {
+  display: flex;
+  justify-content: center;
+}
+
+.sec1-list-cont {
+  max-width: 500px;
+}
+
+.sec1-list {
+  list-style: none;
+}
+
+.sec1-list > li {
+  font-size: large;
+  padding: 20px;
+}

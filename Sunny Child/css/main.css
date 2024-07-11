@@ -1,0 +1,31 @@
+.sec1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center ;
+}
+
+.text-sec1 {
+  padding: 10px;
+  width: 700px;
+  font-size: large;
+}
+
+.img-sec1 {
+  border-radius: 50px;
+  padding: 10px;
+  max-width: 400px;
+}
+
+@media all and (max-width: 1100px) {
+  .sec1 {
+    flex-direction: column;
+  }
+  .text-sec1{
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+  }
+  .img-sec1 {
+    width: 100%;
+  }
+}

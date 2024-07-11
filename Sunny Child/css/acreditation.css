@@ -1,0 +1,10 @@
+.sec1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-sec1 {
+  padding: 20px;
+  font-size: large;
+}
